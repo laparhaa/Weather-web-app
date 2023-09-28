@@ -1,0 +1,134 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family:'Poppins',sans-serif;
+    box-sizing: border-box;
+    
+}
+
+body{
+    /* margin-top: 20px; */
+    height: 100vh;
+    display: block;
+    background:linear-gradient(130deg,#5b548a,#00feba);
+}
+
+/* .header{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    padding-left: 90px;
+    margin-left: 4px;
+    padding-top: 15px;
+    color: #ebfffc;
+} */
+
+.card{
+    width: 90%;
+    max-width: 500px;
+    /* height: min-content; */
+    background: linear-gradient(135deg,#00feba,#5b548a);
+    color: #fff;
+    margin: 50px auto 0px;
+    border-radius: 20px;
+    padding: 40px 35px;
+    text-align: center ;
+
+}
+
+.search{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search input{
+    border: 0px;
+    outline: 0px;
+    background: #ebfffc;
+    color: #555;
+    padding: 10px 25px;
+    height: 60px;
+    border-radius: 25px;
+    flex: 1;
+    margin-right: 16px;
+    font-size: 17px;
+}
+
+.search-button{
+    border: none;
+    outline: none;
+    color: #ebfffc;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    padding-top: 5px; /* search icon img ko center me lane ke liye */
+    padding-left: 20px;
+    cursor: pointer;
+
+}
+
+.search-button img{
+    width: 20px;
+}
+
+.error{
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    font-size: 25px;
+    display: none;
+
+}
+
+.weather-icon{
+    size: 180px;
+    margin-top: 30px;
+}
+
+.weather h1{
+    font-size: 80px;
+    font-weight: 500;
+    
+}
+
+.weather h2{
+    font-size: 50px;
+    font-weight: 400;
+    margin-top: -10px;
+    
+}
+
+.details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 50px 0px 50px;
+    margin-top: 50px;
+    /* padding-left: 50px; */
+    /* padding-right: 50px; */
+}
+
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.col img{
+    width: 40px;
+    margin-right: 10px;
+}
+
+.humidity,.wind{
+font-size: 30px;
+margin-top: -5px;
+}
+
+.weather{
+    display: none;
+}
+
+
